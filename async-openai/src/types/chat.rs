@@ -558,6 +558,7 @@ pub enum ChatCompletionToolChoiceOption {
 #[serde(rename_all = "lowercase")]
 pub enum ServiceTier {
     Auto,
+    Flex,
     Default,
 }
 
@@ -565,6 +566,7 @@ pub enum ServiceTier {
 #[serde(rename_all = "lowercase")]
 pub enum ServiceTierResponse {
     Scale,
+    Flex,
     Default,
 }
 
