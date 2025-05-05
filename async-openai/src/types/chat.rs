@@ -835,6 +835,7 @@ pub enum FinishReason {
     ToolCalls,
     ContentFilter,
     FunctionCall,
+    TimeLimit,
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
